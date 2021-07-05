@@ -7,8 +7,8 @@ Criar uma lista que salvasse no browser os dados adicionados e que pudesse marca
 
 ## Pré-requisitos
 
-Para visualizar o site em sua máquina, você só precisa ter um navegador de sua preferência, depois de fazer o Git Clone.
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Para testar sua funcionalidade, basta acessar (https://codepen.io/vitor-alvarenga/pen/QWvyaJz).
+Obs: Para apagar notas há que, primeiro, adicionar uma nova nota. Isso caso tenha sido reaberta ou recarregada a página
 
 ## Tecnologias
 
