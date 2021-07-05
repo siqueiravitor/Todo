@@ -1,5 +1,5 @@
 <h1 align="center">To Do List</h1>
-<p align="center">Landing Page com imagens em efeito parallax criado para praticar conhecimentos em Front-End</p>
+<p align="center">Lista de afazeres feita em HTML, CSS E JavaScript</p>
 
 ## Objetivo
 
