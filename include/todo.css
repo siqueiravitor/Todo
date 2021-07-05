@@ -1,0 +1,162 @@
+.addBtn {
+    padding: 10px;
+    width: 26%;
+    background: #d9d9d9;
+    color: #555;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid black;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.addBtn:hover {
+    background-color: lightgreen;
+}
+.removeBtn {
+    padding: 10px;
+    width: 20%;
+    background: lightcoral;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid black;
+    margin-top: 10px;
+    position: absolute;
+    right: 37%;
+    transform: translate(50%, 0);
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.removeBtn:hover {
+    background-color: red;
+    color:whitesmoke;
+}
+.removeChkd {
+    padding: 10px;
+    width: 20%;
+    background: lightcoral;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid black;
+    margin-top: 10px;
+    position: absolute;
+    right: 62%;
+    transform: translate(50%, 0);
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.removeChkd:hover {
+    background-color: red;
+    color: whitesmoke;
+}
+.footer{
+    padding-bottom: 35px;
+}
+input {
+    margin: 0;
+    border: 1px solid black;
+    width: 70%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+/* Style the close button */
+.close {
+    position: absolute;
+    right:35px;
+    padding: 10px 8px 10px 8px;
+    margin-top: -10px;
+    margin-right: -5px;
+}
+.close:hover {
+    padding: 10px 8px 10px 8px;
+    background: red;
+    box-shadow: 2px 2px 5px black;
+}
+.note{
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.border{
+    border: 1px solid black;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(120,255,255,0.5), rgb(180,185,255,0.2));
+}
+li:hover{
+    background: lightgreen;
+    padding: 20px;
+    margin:3px;
+    box-shadow: 2px 2px 5px black;
+}
+li:nth-child(even):hover{
+    background: lightgreen;
+}
+li.checked:nth-child(even):hover{
+    background: green;
+}
+.notes{
+    padding:5px; 
+    border: 1px solid black;
+    cursor: pointer;
+}
+li:nth-child(even) {
+    background: lightgoldenrodyellow;
+}
+li.checked{
+    background: green;
+    text-decoration: line-through;
+}
+li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: green;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+    left:35px;
+    margin-right: 15px;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+li {
+    list-style-type: none;
+    padding:10px; 
+    border: 1px black;
+    background: lightcyan;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: 1s background ease-out;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
