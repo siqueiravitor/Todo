@@ -1,3 +1,10 @@
+.title{
+  left: 50%;
+  padding: 2px;
+  width: 100px;
+  transform: translate(600%, 0);
+  color: #000;
+}
 .addBtn {
     padding: 10px;
     width: 26%;
@@ -14,6 +21,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  
 }
 .addBtn:hover {
     background-color: lightgreen;
@@ -159,4 +167,8 @@ li {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+#myUL{
+    cursor: pointer;
+    margin-top: 50px;
 }
