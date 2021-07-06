@@ -8,7 +8,7 @@ Criar uma lista que salvasse no browser os dados adicionados e que pudesse marca
 ## Pré-requisitos
 
 Para testar sua funcionalidade, basta acessar (https://codepen.io/vitor-alvarenga/pen/QWvyaJz).
-Obs: Para apagar notas há que, primeiro, adicionar uma nova nota. Isso caso tenha sido reaberta ou recarregada a página
+Obs: Para apagar notas existentes, há que, primeiro, adicionar uma nova nota. Isso caso tenha sido reaberta ou recarregada a página
 
 ## Tecnologias
 
