@@ -28,18 +28,18 @@
 }
 .removeBtn {
     padding: 10px;
-    width: 30%;
+    width: 28%;
     margin: 35px 0;
     background: lightcoral;
-    color: #555;
+    color: #white;
     float: left;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
     transition: 0.3s;
     border: 1px solid black;
     position: absolute;
-    right: 32%;
+    right: 29%;
     transform: translate(50%, 0);
     /* make the list items unselectable */
     -webkit-user-select: none;
@@ -53,18 +53,18 @@
 }
 .removeChkd {
     padding: 10px;
-    width: 30%;
+    width: 28%;
     background: lightcoral;
-    color: #555;
+    color: #03031B;
     float: left;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
     transition: 0.3s;
     border: 1px solid black;
     margin: 35px 0;
     position: absolute;
-    right: 67%;
+    right: 70%;
     transform: translate(50%, 0);
     /* make the list items unselectable */
     -webkit-user-select: none;
@@ -82,7 +82,7 @@
 input {
     margin: 0;
     border: 1px solid black;
-    width: 70%;
+    width: 65%;
     padding: 10px;
     float: left;
     font-size: 16px;
